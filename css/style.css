@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    min-width: 100vw;
+}
+
+#sidebar {
+    background-color: rgb(18, 18, 22);
+    height: 100vh;
+    width: 200px;
+}
+
+#logo {
+    height: auto;
+    width: 180px;
+    margin: 8px;
+}
+
+main {
+    background-color: rgb(43, 43, 51);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-panel {
+    background-color: rgb(25, 25, 31);
+    color: white;
+    padding: 4px 32px;
+}
+
+#upper {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lower {
+    height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tile-area {
+    flex: 1;
+    display: grid;
+}
