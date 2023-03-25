@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     display: flex;
     min-width: 100vw;
@@ -29,7 +32,7 @@ main {
     padding: 4px 32px;
 }
 
-#upper {
+.upper {
     height: 56px;
     width: 100%;
     display: flex;
@@ -37,7 +40,55 @@ main {
     align-items: center;
 }
 
-#lower {
+form {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+}
+
+#search-bar {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: clamp(150px, 75%, 600px);
+    padding: 0 1em;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+form > button {
+    background-color: transparent;
+    border: none;
+}
+
+.upper img {
+    height: 30px;
+    width: auto;
+}
+
+#profile-link {
+    height: 44px;
+}
+
+.right {
+    font-weight: bold;
+    width: 240px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+.right a,
+.right a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lower {
     height: 88px;
     width: 100%;
     display: flex;

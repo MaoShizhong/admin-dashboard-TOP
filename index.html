@@ -26,10 +26,18 @@
             </div>
             <main>
                 <div id="top-panel">
-                    <div id="upper">
-                        Search bar on left, notif/pic/profile on right
+                    <div class="upper">
+                        <form role="search">
+                            <input id="search-bar" type="search" name="query" placeholder="Search..." aria-label="Search site contents">
+                            <button aria-label="Click to search"><img id="search-button" src="images/search-icon.png" alt="Search button"> </button>
+                        </form>
+                        <div class="right">
+                            <p>notif</p>
+                            <a href="#" aria-label="Click to go to profile"><img id="profile-link" src="images/profile.png" alt="Profile picture"></a>
+                            <a href="#" aria-label="Click to go to profile">clickable_profile_name</a>
+                        </div>
                     </div>
-                    <div id="lower">
+                    <div class="lower">
                         Profile summary on left, new/upload/share on right
                     </div>
                 </div>
