@@ -74,7 +74,7 @@ form > button {
     border: none;
 }
 
-form > button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -134,6 +134,39 @@ a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+    flex-shrink: 0;
+}
+
+#profile-pic {
+    height: 70px;
+    width: auto;
+}
+
+h2, h4 {
+    margin: 4px;
+}
+
+#upload-btns {
+    width: 600px;
+}
+
+.right button {
+    border: none;
+    border-radius: 1.5em;
+    background-color: rgb(58, 58, 70);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 30px;
+    min-width: 0;
+    flex-shrink: 1;
 }
 
 #tile-area {
